@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  height: 100px;
+  background-color: #26b30e;
+  width: 100%;
+}
+header img {
+  width: 100px;
+  position: relative;
+  top: 40px;
+  left: calc(50% - 50px);
+}
+
+.input {
+  background-image: url("../img/b.jpg");
+}
+.input select {
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+  outline: none;
+  margin: 10px 0;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+.input input {
+  width: 300px;
+  margin: 10px 0;
+  outline: none;
+  height: 50px;
+  font-size: 25px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+section {
+  display: flex;
+  height: calc(100vh - 100px);
+  justify-content: center;
+  align-items: center;
+}

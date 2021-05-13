@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    height:100px;
+    background-color:#26b30e ;
+    width:100%;
+    img{
+        width:100px;
+        position:relative;
+        top:40px;
+        left:calc(50% - 50px);
+    }
+}
