@@ -14,7 +14,7 @@ use \PhpOffice\PhpSpreadsheet\IOFactory;
 */
 
 Route::get('/', function () {
-    $spreadsheet = IOFactory::load(config_path().'/food3.xlsx');
+    $spreadsheet = IOFactory::load(config_path().'/food1.xlsx');
     $sheet = $spreadsheet->getActiveSheet()->toArray();
     
     // Display the sheet content 

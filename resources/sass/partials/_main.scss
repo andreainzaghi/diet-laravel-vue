@@ -27,7 +27,15 @@ section{
     height:calc(100vh - 100px);
     justify-content: center;
     align-items: center;
-    .input-generalita{
-       
-    }
+  
+}
+.button-1 button{
+    width:300px;
+    height:50px;
+    font-size:25px;
+    border-radius: 10px;
+    border:1px solid grey;
+    margin:10px 0;
+    background-color: #26b30e ;
+    color:#fff;
 }

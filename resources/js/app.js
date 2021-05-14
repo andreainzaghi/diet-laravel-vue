@@ -9,14 +9,19 @@ var app = new Vue({
       Altezza:[],
       Eta:[],
       Sesso:[],
+      Calorie:null
     },
-    method:{
+    methods:{
+      prova:function(){
+       
+        if (Sesso == 'Uomo') {
+          Calorie = 10 * (Peso + 6,25) * (Altezza - 5) * (Eta + 5);
+        } else if(Sesso == 'Donna'){
+          Calorie = 10 * (Peso  + 6,25 ) * (Altezza  - 5) * (Eta - 161);
+        }
       
-      if (Sesso = 'Uomo') {
-       var Uomini = 10 * (Peso + 6,25) * (Altezza - 5) * (Eta + 5);
-      } else (Sesso = 'Donna'){
-       var Donne = 10 * (Peso  + 6,25 ) * (Altezza  - 5) * (Eta - 161);
       }
-      
     }
+     
+    
   })

@@ -24,11 +24,17 @@
         <div class="input-eta">
           <input type="text"placeholder="Eta'"v-model="Eta">
         </div>
+        <div class="button-1">
+          <button on:click="prova">Scopri la tua dieta</button>
+        </div>
         <span>Checked names: @{{ Sesso }}</span>
-
+        <span>Kcal: @{{ Calorie }}</span>
+        <span>Checked names: @{{ Eta }}</span>
+        <span>Checked names: @{{ Altezza }}</span>
    </div>
 </section>
 </div>
 
 
 @endsection
+
